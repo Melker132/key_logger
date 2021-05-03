@@ -1,9 +1,12 @@
 import pynput
+import time
 
 from pynput.keyboard import Key, Listener
 
 count = 0
 keys = []
+
+# Hej melker!
 
 def on_press(key):
     global keys, count
